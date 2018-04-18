@@ -1,0 +1,69 @@
+/* General Styles */
+
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.flex {
+  display: flex;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+  background: url("../../resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  display: block;
+  padding-top: 1rem;
+}
+
+header img {
+  height: 1.5rem;
+  margin: 0px 1rem 0px 2rem;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+nav li {
+  font-size: 1em;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  color: black;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
