@@ -1,7 +1,7 @@
 /* General Styles */
 
 html {
-  font-family: Helvetica;
+  font-family: helvetica;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -21,6 +21,10 @@ div {
 
 h1 {
   font-weight: bold;
+}
+
+p {
+  display: block;
 }
 
 /* HEADER */
@@ -66,4 +70,70 @@ header .flex {
   margin-top: 10rem;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+/* FEATURES */
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+}
+
+.service img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+/* PHILOSOPHY & APPOINTMENTS */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.item p {
+  padding-top: 1rem;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: azure;
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
 }
